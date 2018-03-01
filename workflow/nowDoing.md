@@ -1,2 +1,2 @@
 - [ ] dataset prepare
-- [ ] data base setup & tuning
+- [ ] database (MongoDB) setup & tuning
