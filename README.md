@@ -5,4 +5,6 @@ Working process, problem statements and result descriptions are shown in */workf
 
 Data sources and APIs are contained in */data* folder.
 
+Code chunks will be in */code* folder.
+
 *Started @ March 1, 2018*
