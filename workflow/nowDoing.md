@@ -1,2 +1,4 @@
+- [x] base data sources selection
+- [ ] import data
 - [ ] dataset prepare
 - [ ] database (MongoDB) setup & tuning
