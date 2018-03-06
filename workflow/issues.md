@@ -1,2 +1,2 @@
-- Не удалось поставить MongoDB 3.6 на Debian 9 (stretch), нативные сборки только для Debian 7 (wheezy) и Debian 8 (Jessie).
+- Не удалось поставить MongoDB 3.6 на Debian 9 (stretch), нативные сборки только для Debian 7 (wheezy) и Debian 8 (jessie).
 Проблема на уровне совместимости библиотек. Решаема, но не просто (StackOverflow). В ближайшее время пересяду на Ubuntu, там должно быть лучше.
