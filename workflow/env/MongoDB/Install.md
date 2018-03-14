@@ -6,10 +6,10 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 sudo apt-get update 
 sudo apt-get install -y mongodb-org 
 
-Start: sudo service mongod start 
-Stop:  sudo service mongod stop 
-Restart: sudo service mongod restart 
-Shell: mongo --host 127.0.0.1:27017 
+- Start: sudo service mongod start 
+- Stop:  sudo service mongod stop 
+- Restart: sudo service mongod restart 
+- Shell: mongo --host 127.0.0.1:27017 
 
 tuning: 
 https://docs.mongodb.com/master/reference/ulimit/ 
