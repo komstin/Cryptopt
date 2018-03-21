@@ -1,3 +1,5 @@
+https://docs.mongodb.com/manual/reference/program/mongoimport/#example-csv-import-types
+
 mongoimport --type csv --file filename --headerline
 
 --upsertFields <field1[,field2]>
