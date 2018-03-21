@@ -8,3 +8,10 @@ sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get install cuda
 ```
+
+- https://developer.nvidia.com/cuda-toolkit/whatsnew
+- https://developer.nvidia.com/cuda-faq
+- https://docs.nvidia.com/cuda/
+- https://devtalk.nvidia.com/
+- https://developer.nvidia.com/accelerated-computing-training
+- https://docs.nvidia.com/cuda/cuda-samples/index.html
