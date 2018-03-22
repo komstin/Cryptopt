@@ -6,3 +6,5 @@ sudo apt install ocl-icd-opencl-dev
 sudo sysctl -w vm.nr_hugepages=128
 echo "vm.nr_hugepages=128" >> /etc/sysctl.conf
 sysctl -p
+
+MS VS Code (with Anaconda)
