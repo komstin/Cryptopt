@@ -3,3 +3,6 @@ https://github.com/manahl/arctic
 
 Monary performs high-performance column queries on MongoDB
 https://pypi.python.org/pypi/Monary
+
+TFMongoDB - A Google Tensorflow MongoDB connector
+https://pypi.python.org/pypi/TFMongoDB
