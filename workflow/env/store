@@ -1,2 +1,5 @@
 Arctic TimeSeries and Tick store that sits atop MongoDB
 https://github.com/manahl/arctic
+
+Monary performs high-performance column queries on MongoDB
+https://pypi.python.org/pypi/Monary
