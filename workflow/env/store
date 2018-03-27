@@ -6,3 +6,7 @@ https://pypi.python.org/pypi/Monary
 
 TFMongoDB - A Google Tensorflow MongoDB connector
 https://pypi.python.org/pypi/TFMongoDB
+
+HDF5/PyTables
+https://www.hdfgroup.org/solutions/hdf5/
+https://www.pytables.org/index.html
