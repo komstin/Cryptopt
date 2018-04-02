@@ -2,6 +2,8 @@ bash Anaconda3-5.1.0-Linux-x86_64.sh
 anaconda-navigator
 conda -V
 # conda 4.5.0
+python -V
+# Python 3.6.4 :: Anaconda, Inc.
 
 conda install -c conda-forge tensorflow
 pip install keras
