@@ -6,7 +6,7 @@ I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructi
 I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
 - это на на Intel(R) Core(TM) i7-7700HQ CPU @ 2.82GHz
 
-Это значит, что Tensorflow из Анаконды не поддерживает некоторые инструкции процессора
+Это значит, что Tensorflow из Анаконды не поддерживает некоторые инструкции процессора. Заметим, что шестилетней давности AMD FX на 4.3 Ггц обучает сеть почти вдвое быстрее, чем i7 на 2.8 Ггц.
 
 Большинство рекомендаций - просто отключить сообщение. Но разница в производительности от поддержки этих инструкций может быть в несколько раз. Так что:
 
