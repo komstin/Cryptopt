@@ -17,6 +17,16 @@ print('statsmodels: %s' % statsmodels.__version__)
 import sklearn
 print('sklearn: %s' % sklearn.__version__)
 
+# theano
+import theano
+print('theano: %s' % theano.__version__)
+# tensorflow
+import tensorflow
+print('tensorflow: %s' % tensorflow.__version__)
+# keras
+import keras
+print('keras: %s' % keras.__version__)
+
 '''
 scipy: 1.0.0
 numpy: 1.14.0
