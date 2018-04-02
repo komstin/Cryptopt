@@ -1,7 +1,12 @@
 Tensorflow мне сообщает:
-I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
 
-Это значит, что Tensorflow из Анаконды не поддерживает некоторые инструкции моего процессора (AMD FX-8350 Eight-Core Processor, 4334.207 MHz), а именно: SSE4.1 SSE4.2 AVX FMA
+I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+- это на AMD FX(TM)-8350 Eight-Core Processor @ 4.33GHz
+
+I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+- это на на Intel(R) Core(TM) i7-7700HQ CPU @ 2.82GHz
+
+Это значит, что Tensorflow из Анаконды не поддерживает некоторые инструкции процессора
 
 Большинство рекомендаций - просто отключить сообщение. Но разница в производительности от поддержки этих инструкций может быть в несколько раз. Так что:
 
