@@ -1,0 +1,17 @@
+Tensorflow мне сообщает:
+I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+
+Это значит, что Tensorflow из Анаконды не поддерживает некоторые инструкции моего процессора (AMD FX-8350 Eight-Core Processor, 4334.207 MHz), а именно: SSE4.1 SSE4.2 AVX FMA
+
+Большинство рекомендаций - просто отключить сообщение. Но разница в производительности от поддержки этих инструкций может быть в несколько раз. Так что:
+
+https://www.tensorflow.org/install/install_sources
+https://github.com/lakshayg/tensorflow-build
+https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://github.com/tensorflow/tensorflow/issues/8037
+https://stackoverflow.com/questions/41293077/how-to-compile-tensorflow-with-sse4-2-and-avx-instructions
+https://stackoverflow.com/questions/41439846/tensorflow-wasnt-compiled-to-use-sse4-2-avx-avx2-fma?noredirect=1&lq=1
+https://stackoverflow.com/questions/44247047/tensorflow-compilation-using-sse-and-avx?noredirect=1&lq=1
+https://stackoverflow.com/questions/42698482/suppressing-warnings-about-use-of-sse4-1-sse4-2-and-avx-instructions-in-tensorf?noredirect=1&lq=1
+https://stackoverflow.com/questions/47068709/your-cpu-supports-instructions-that-this-tensorflow-binary-was-not-compiled-to-u?noredirect=1&lq=1
+https://stackoverflow.com/questions/45118108/optimize-tensorflow-image-recognition-on-cpu?noredirect=1&lq=1
