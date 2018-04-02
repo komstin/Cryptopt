@@ -28,14 +28,26 @@ import keras
 print('keras: %s' % keras.__version__)
 
 '''
+with tf-cpu:
 scipy: 1.0.0
 numpy: 1.14.0
 matplotlib: 2.1.2
 pandas: 0.22.0
 statsmodels: 0.8.0
 sklearn: 0.19.1
-
 tensorflow: 1.5.0
 Using TensorFlow backend.
 keras: 2.1.5
+
+with tf-gpu:
+scipy: 1.0.1
+numpy: 1.14.2
+matplotlib: 2.2.2
+pandas: 0.22.0
+statsmodels: 0.8.0
+sklearn: 0.19.1
+tensorflow: 1.5.0
+Using TensorFlow backend.
+keras: 2.1.5
+
 '''
