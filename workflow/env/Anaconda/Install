@@ -4,9 +4,15 @@ conda -V
 # conda 4.5.0
 python -V
 # Python 3.6.4 :: Anaconda, Inc.
-
+conda update conda
+conda update anaconda
+conda update scikit-learn
+conda install theano
 conda install -c conda-forge tensorflow
 pip install keras
+
+
+python versions.py
 
 ===============
 https://www.anaconda.com/download/#linux
